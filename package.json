@@ -1,0 +1,18 @@
+{
+  "name": "aztecjs-bug-deploy-token",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aztec/accounts": "^0.38.0",
+    "@aztec/aztec.js": "^0.38.0",
+    "@aztec/noir-contracts.js": "^0.38.0"
+  }
+}
