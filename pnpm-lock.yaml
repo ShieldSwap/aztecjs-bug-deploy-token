@@ -9,62 +9,65 @@ importers:
   .:
     dependencies:
       '@aztec/accounts':
-        specifier: ^0.38.0
-        version: 0.38.0(zod@3.23.8)
+        specifier: 0.62.0
+        version: 0.62.0(zod@3.23.8)
       '@aztec/aztec.js':
-        specifier: ^0.38.0
-        version: 0.38.0(zod@3.23.8)
+        specifier: 0.62.0
+        version: 0.62.0(zod@3.23.8)
       '@aztec/noir-contracts.js':
-        specifier: ^0.38.0
-        version: 0.38.0(zod@3.23.8)
+        specifier: 0.62.0
+        version: 0.62.0(zod@3.23.8)
 
 packages:
 
   '@adraffy/ens-normalize@1.10.0':
     resolution: {integrity: sha512-nA9XHtlAkYfJxY7bce8DcN7eKxWWCWkU+1GR9d+U6MbNpfwQp8TI7vqOsBsMcHoT4mBu2kypKoSKnghEzOOq5Q==}
 
-  '@aztec/accounts@0.38.0':
-    resolution: {integrity: sha512-T7p59q0eSoG6kI3JUUJ0d4RcC7lppXbxamQTBwm/Y12GcxyyVZItEGBdciE/aRSnrnKXiHulxVLFk13RAs2IFw==}
+  '@aztec/accounts@0.62.0':
+    resolution: {integrity: sha512-jFMIfz3iC9VjyO8fciMFmtIlwt/56d/1LRHTeC2gZroM1F0BGiJvD/CrdqUFWdiYRe/IBi1RsKpgVz37MgqQ/g==}
     engines: {node: '>=18'}
 
-  '@aztec/aztec.js@0.38.0':
-    resolution: {integrity: sha512-Mn6WBOe47pay91y875sUcc3yOLS6xmU0nz4JLLAngUMPoTt8GCXHlFWoW0phOi+xV2iyChbAvNeBC3yk37W9Pw==}
+  '@aztec/aztec.js@0.62.0':
+    resolution: {integrity: sha512-oY55dxBWJ2bmhsBzGUfyHogYa7mK/m8UMuqN6fq3wqKIqFhokx9Th/cGh1h1o1N71/quwU63NeWp7VvOuEUJSQ==}
     engines: {node: '>=18'}
 
-  '@aztec/bb.js@0.38.0':
-    resolution: {integrity: sha512-74MX3ieK0Oz3zUqbSfF1Bb25J38lGHkD4ajrOXfH1A97HMLCsOI5Rv40D5VUnv2JRnii3a9HU/ft26QafTsJQw==}
+  '@aztec/bb.js@0.62.0':
+    resolution: {integrity: sha512-BQBDvuDl0GeEwA38P7eZoUMYARLNj4Knm+F8iENADeN0w96h3NLxy61apXjXRWXm1ykF6vJ19UdyyxlavNquag==}
     hasBin: true
 
-  '@aztec/circuit-types@0.38.0':
-    resolution: {integrity: sha512-u5xNSD0ziNqqwC+5xIauHX09+yfLi/xNXLORDZwtHdGnufg31j9XXLRXA9GpJ7SDF3iNt1ijGiE8H2GhocpcWQ==}
+  '@aztec/circuit-types@0.62.0':
+    resolution: {integrity: sha512-zJknSabNOeUkkgKYa6210xMojx9/7b6nv3ITD1SxmpE6AZ+6gNuS1KOpc5esbexo/cFQf6zfoX30oaG069bg2Q==}
     engines: {node: '>=18'}
 
-  '@aztec/circuits.js@0.38.0':
-    resolution: {integrity: sha512-/n61XXO8o2sdW+PZQ1ExJeeyAftGAitTn32yoPrNZZZx4S5BossP56JYPb0ePqIRNiPntmryL5K63eh6nE6s1g==}
+  '@aztec/circuits.js@0.62.0':
+    resolution: {integrity: sha512-EDWnRqPhl44GLjWHJITGZZHfYf2+bi0CN5bBtIxFIoafEkBxaMk4QHEA14GwfJhD6FHlbMK739aeGOVOqQ0lLg==}
     engines: {node: '>=18'}
 
-  '@aztec/entrypoints@0.38.0':
-    resolution: {integrity: sha512-4Ry0lExotaUJchRrorguzAhuVmshf7Y7QH8nR81fyxJylB+M7ql5838Zw620JKOx7t1OW0cJCwlcLYPBszXHBA==}
+  '@aztec/entrypoints@0.62.0':
+    resolution: {integrity: sha512-3sSr6meLVctgN9TKVpJpTNxjU51Vm+KGWl9a4GTP9e1u+U8VdvGbJ5SFyumuxySNKSTSmT4JWSLSKqfDBqT2bA==}
     engines: {node: '>=18'}
 
-  '@aztec/ethereum@0.38.0':
-    resolution: {integrity: sha512-CFaAfYetlBhBpSs6UyvA/DRAZ9z4cM5Yv+PtIw2ODlKdMBLJ8qe5vtopxcuQ7WQYA7f6gNLrKclPqqSTGLsNoA==}
+  '@aztec/ethereum@0.62.0':
+    resolution: {integrity: sha512-5YjLMBGuB8E7gfrPUD+eiRGyiwQ4S60rYadsklsy6SmP7or7f3+aWJUeW8/vcsIMjPri9GGqYtA1LRcw2eY6FA==}
     engines: {node: '>=18'}
 
-  '@aztec/foundation@0.38.0':
-    resolution: {integrity: sha512-ACGdju00MPZahSrVRP7OQyakwyuWlp1vwi4xe0y3ftWMF8xrTYBNZQAL4rPLjUZxjLY37ftV/kZCM6dtBX30aA==}
+  '@aztec/foundation@0.62.0':
+    resolution: {integrity: sha512-tkthlkcyPbzvfbd8ztRSPU+eMMOepZzlr9dbxA2kWSTfZTBa+Y8PtA0vLtYTE9P4IEjPYcSrzIXfOtLTwPnxlA==}
     engines: {node: '>=18'}
 
-  '@aztec/noir-contracts.js@0.38.0':
-    resolution: {integrity: sha512-vzTVRh50SrTuI/G9JvfCSPMUpgPxV8A1nu6Vh4A+v+ZMnz0HsZ63vwKD1NmbbmcKkQfAVUH28NDeas0dVVPeNA==}
+  '@aztec/l1-artifacts@0.62.0':
+    resolution: {integrity: sha512-CEWxcTptV/1fxBYF6YLRoFcH6Khyt5q4YnGx36ARAzwHGrBjv2wzXR78ApuyzAsuvkuYkZIdGWNmn9REolJiuw==}
+
+  '@aztec/noir-contracts.js@0.62.0':
+    resolution: {integrity: sha512-8IGR8M4WCRdO9mNze0a2wSmIjgSSuvv3J6DTXydoqm711peQ2BMuIHfw2XKvP4nvVCXuWw2ASqvQQNAiIDTHvw==}
     engines: {node: '>=18'}
 
-  '@aztec/protocol-contracts@0.38.0':
-    resolution: {integrity: sha512-gWk/19qxHB6K8wz65bo0aw4g2YBUxp1pCX1VniyM9y8Qwm3WxWh3nmgQG22IK2Q7a6OY3zyvs6Ny6fSVSKnEvg==}
+  '@aztec/protocol-contracts@0.62.0':
+    resolution: {integrity: sha512-U+g687Y+qQFa6t/hcLkKLJWmMiXoQ757n2bD71IRxBSJ8VNQI5wVLW6dzr14YWdwSFfnlKIlE1WYl/3MQUFTug==}
     engines: {node: '>=18'}
 
-  '@aztec/types@0.38.0':
-    resolution: {integrity: sha512-JeArXwpc3kdkN7huykUz9rpzoXQC48fWhItqdi2sSam4bWx3VTjpcxtNWrfTmAD4zXZKJUVYL3N7HdPInHTORg==}
+  '@aztec/types@0.62.0':
+    resolution: {integrity: sha512-uzbyc4BHCI/KoLhhWjVurEwXaG1VL4k0kNRHFAcQzoU4oRYq0EMqL0pjzpGFUd/V8EhRc5ua2l6M+LaKHriAfA==}
     engines: {node: '>=18'}
 
   '@eslint-community/eslint-utils@4.4.0':
@@ -88,6 +91,7 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -95,6 +99,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@koa/cors@5.0.0':
     resolution: {integrity: sha512-x/iUDjcS90W69PryLDIMgFyV21YLTnG9zOpPXS7Bkt2b8AsY3zZsIpOLBkYr9fBcF3HbkKaER5hOBZLfpLgYNw==}
@@ -181,6 +186,12 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
+  asynckit@0.4.0:
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+
+  axios@1.7.7:
+    resolution: {integrity: sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==}
+
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
@@ -255,6 +266,10 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
+  combined-stream@1.0.8:
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
+    engines: {node: '>= 0.8'}
+
   comlink@4.4.1:
     resolution: {integrity: sha512-+1dlx0aY5Jo1vHy/tSsIGpSkN4tS9rZSW8FIhG0JH/crs9wwweswIo/POr451r7bZww3hFbPAKnTpimzL/mm4Q==}
 
@@ -313,6 +328,10 @@ packages:
   define-data-property@1.1.4:
     resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
     engines: {node: '>= 0.4'}
+
+  delayed-stream@1.0.0:
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
+    engines: {node: '>=0.4.0'}
 
   delegates@1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
@@ -379,6 +398,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -416,6 +436,9 @@ packages:
   fastq@1.17.1:
     resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
 
+  fflate@0.8.2:
+    resolution: {integrity: sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==}
+
   file-entry-cache@6.0.1:
     resolution: {integrity: sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==}
     engines: {node: ^10.12.0 || >=12.0.0}
@@ -430,6 +453,19 @@ packages:
 
   flatted@3.3.1:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
+
+  follow-redirects@1.15.9:
+    resolution: {integrity: sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  form-data@4.0.1:
+    resolution: {integrity: sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==}
+    engines: {node: '>= 6'}
 
   fresh@0.5.2:
     resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
@@ -454,6 +490,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@13.24.0:
     resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
@@ -535,6 +572,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -773,6 +811,9 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
+  proxy-from-env@1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
@@ -802,6 +843,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   ripemd160@2.0.2:
@@ -952,54 +994,60 @@ snapshots:
 
   '@adraffy/ens-normalize@1.10.0': {}
 
-  '@aztec/accounts@0.38.0(zod@3.23.8)':
+  '@aztec/accounts@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/aztec.js': 0.38.0(zod@3.23.8)
-      '@aztec/circuit-types': 0.38.0(zod@3.23.8)
-      '@aztec/circuits.js': 0.38.0(zod@3.23.8)
-      '@aztec/entrypoints': 0.38.0(zod@3.23.8)
-      '@aztec/ethereum': 0.38.0(zod@3.23.8)
-      '@aztec/foundation': 0.38.0
-      '@aztec/types': 0.38.0(zod@3.23.8)
+      '@aztec/aztec.js': 0.62.0(zod@3.23.8)
+      '@aztec/circuit-types': 0.62.0(zod@3.23.8)
+      '@aztec/circuits.js': 0.62.0(zod@3.23.8)
+      '@aztec/entrypoints': 0.62.0(zod@3.23.8)
+      '@aztec/ethereum': 0.62.0(zod@3.23.8)
+      '@aztec/foundation': 0.62.0
+      '@aztec/types': 0.62.0(zod@3.23.8)
       tslib: 2.6.2
     transitivePeerDependencies:
       - bufferutil
+      - debug
       - supports-color
       - typescript
       - utf-8-validate
       - zod
 
-  '@aztec/aztec.js@0.38.0(zod@3.23.8)':
+  '@aztec/aztec.js@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/circuit-types': 0.38.0(zod@3.23.8)
-      '@aztec/circuits.js': 0.38.0(zod@3.23.8)
-      '@aztec/ethereum': 0.38.0(zod@3.23.8)
-      '@aztec/foundation': 0.38.0
-      '@aztec/protocol-contracts': 0.38.0(zod@3.23.8)
-      '@aztec/types': 0.38.0(zod@3.23.8)
+      '@aztec/circuit-types': 0.62.0(zod@3.23.8)
+      '@aztec/circuits.js': 0.62.0(zod@3.23.8)
+      '@aztec/ethereum': 0.62.0(zod@3.23.8)
+      '@aztec/foundation': 0.62.0
+      '@aztec/l1-artifacts': 0.62.0
+      '@aztec/protocol-contracts': 0.62.0(zod@3.23.8)
+      '@aztec/types': 0.62.0(zod@3.23.8)
+      axios: 1.7.7
       tslib: 2.6.2
+      viem: 2.10.2(zod@3.23.8)
     transitivePeerDependencies:
       - bufferutil
+      - debug
       - supports-color
       - typescript
       - utf-8-validate
       - zod
 
-  '@aztec/bb.js@0.38.0':
+  '@aztec/bb.js@0.62.0':
     dependencies:
       comlink: 4.4.1
       commander: 10.0.1
       debug: 4.3.4
+      fflate: 0.8.2
       tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
 
-  '@aztec/circuit-types@0.38.0(zod@3.23.8)':
+  '@aztec/circuit-types@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/circuits.js': 0.38.0(zod@3.23.8)
-      '@aztec/ethereum': 0.38.0(zod@3.23.8)
-      '@aztec/foundation': 0.38.0
-      '@aztec/types': 0.38.0(zod@3.23.8)
+      '@aztec/circuits.js': 0.62.0(zod@3.23.8)
+      '@aztec/ethereum': 0.62.0(zod@3.23.8)
+      '@aztec/foundation': 0.62.0
+      '@aztec/types': 0.62.0(zod@3.23.8)
       browserify-cipher: 1.0.1
       lodash.clonedeep: 4.5.0
       lodash.isequal: 4.5.0
@@ -1012,11 +1060,11 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@aztec/circuits.js@0.38.0(zod@3.23.8)':
+  '@aztec/circuits.js@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/bb.js': 0.38.0
-      '@aztec/foundation': 0.38.0
-      '@aztec/types': 0.38.0(zod@3.23.8)
+      '@aztec/bb.js': 0.62.0
+      '@aztec/foundation': 0.62.0
+      '@aztec/types': 0.62.0(zod@3.23.8)
       eslint: 8.57.0
       lodash.chunk: 4.2.0
       tslib: 2.6.2
@@ -1027,24 +1075,26 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@aztec/entrypoints@0.38.0(zod@3.23.8)':
+  '@aztec/entrypoints@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/aztec.js': 0.38.0(zod@3.23.8)
-      '@aztec/circuit-types': 0.38.0(zod@3.23.8)
-      '@aztec/circuits.js': 0.38.0(zod@3.23.8)
-      '@aztec/foundation': 0.38.0
-      '@aztec/protocol-contracts': 0.38.0(zod@3.23.8)
+      '@aztec/aztec.js': 0.62.0(zod@3.23.8)
+      '@aztec/circuit-types': 0.62.0(zod@3.23.8)
+      '@aztec/circuits.js': 0.62.0(zod@3.23.8)
+      '@aztec/foundation': 0.62.0
+      '@aztec/protocol-contracts': 0.62.0(zod@3.23.8)
       tslib: 2.6.2
     transitivePeerDependencies:
       - bufferutil
+      - debug
       - supports-color
       - typescript
       - utf-8-validate
       - zod
 
-  '@aztec/ethereum@0.38.0(zod@3.23.8)':
+  '@aztec/ethereum@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/foundation': 0.38.0
+      '@aztec/foundation': 0.62.0
+      '@aztec/l1-artifacts': 0.62.0
       dotenv: 16.4.5
       tslib: 2.6.2
       viem: 2.10.2(zod@3.23.8)
@@ -1055,9 +1105,9 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@aztec/foundation@0.38.0':
+  '@aztec/foundation@0.62.0':
     dependencies:
-      '@aztec/bb.js': 0.38.0
+      '@aztec/bb.js': 0.62.0
       '@koa/cors': 5.0.0
       '@noble/curves': 1.4.0
       bn.js: 5.2.1
@@ -1080,22 +1130,27 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@aztec/noir-contracts.js@0.38.0(zod@3.23.8)':
+  '@aztec/l1-artifacts@0.62.0':
     dependencies:
-      '@aztec/aztec.js': 0.38.0(zod@3.23.8)
+      tslib: 2.6.2
+
+  '@aztec/noir-contracts.js@0.62.0(zod@3.23.8)':
+    dependencies:
+      '@aztec/aztec.js': 0.62.0(zod@3.23.8)
       tslib: 2.6.2
     transitivePeerDependencies:
       - bufferutil
+      - debug
       - supports-color
       - typescript
       - utf-8-validate
       - zod
 
-  '@aztec/protocol-contracts@0.38.0(zod@3.23.8)':
+  '@aztec/protocol-contracts@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/circuits.js': 0.38.0(zod@3.23.8)
-      '@aztec/foundation': 0.38.0
-      '@aztec/types': 0.38.0(zod@3.23.8)
+      '@aztec/circuits.js': 0.62.0(zod@3.23.8)
+      '@aztec/foundation': 0.62.0
+      '@aztec/types': 0.62.0(zod@3.23.8)
       lodash.omit: 4.5.0
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1105,10 +1160,10 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@aztec/types@0.38.0(zod@3.23.8)':
+  '@aztec/types@0.62.0(zod@3.23.8)':
     dependencies:
-      '@aztec/ethereum': 0.38.0(zod@3.23.8)
-      '@aztec/foundation': 0.38.0
+      '@aztec/ethereum': 0.62.0(zod@3.23.8)
+      '@aztec/foundation': 0.62.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1233,6 +1288,16 @@ snapshots:
 
   argparse@2.0.1: {}
 
+  asynckit@0.4.0: {}
+
+  axios@1.7.7:
+    dependencies:
+      follow-redirects: 1.15.9
+      form-data: 4.0.1
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
   balanced-match@1.0.2: {}
 
   base64-js@1.5.1: {}
@@ -1321,6 +1386,10 @@ snapshots:
 
   color-name@1.1.4: {}
 
+  combined-stream@1.0.8:
+    dependencies:
+      delayed-stream: 1.0.0
+
   comlink@4.4.1: {}
 
   commander@10.0.1: {}
@@ -1376,6 +1445,8 @@ snapshots:
       es-define-property: 1.0.0
       es-errors: 1.3.0
       gopd: 1.0.1
+
+  delayed-stream@1.0.0: {}
 
   delegates@1.0.0: {}
 
@@ -1505,6 +1576,8 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
+  fflate@0.8.2: {}
+
   file-entry-cache@6.0.1:
     dependencies:
       flat-cache: 3.2.0
@@ -1521,6 +1594,14 @@ snapshots:
       rimraf: 3.0.2
 
   flatted@3.3.1: {}
+
+  follow-redirects@1.15.9: {}
+
+  form-data@4.0.1:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
 
   fresh@0.5.2: {}
 
@@ -1880,6 +1961,8 @@ snapshots:
   path-to-regexp@6.2.2: {}
 
   prelude-ls@1.2.1: {}
+
+  proxy-from-env@1.1.0: {}
 
   punycode@2.3.1: {}
 
